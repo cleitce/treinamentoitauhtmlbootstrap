@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fomulário em Javascript</title>
+
+<script language="javascript">
+    
+
+    function validar()
+    {
+        var nome = formuser.nome.value
+        var email = formuser.email.value;
+        if(nome=="")
+        {
+            alert("Preenchimento do campo nome obrigatório");
+            formuser.nome.focus();
+            return false;
+        }
+        if(email=="" || email.indexOf('@')==-1)
+        {
+            alert("Preenchimento do campo email obrigatório ou email não é válido");
+            formuser.email.focus();
+            return false;
+        }
+        alert("Olá " + nome + " seja bem vindo, iremos enviar todo o nosso portfolio para o email: " + email);
+    }
+</script>
+
+
+</head>
+<body>
+    <form id="formuser" method="POST">
+        <label>Nome:</label>
+        <input type="text" name="nome" /><br><br>
+        <label>Email:</label>
+        <input type="text" name="email" /><br><br>
+
+        <input type="button" value="enviar" onclick="validar();" />     
+    </form>
+
+
+</body>
+</html>

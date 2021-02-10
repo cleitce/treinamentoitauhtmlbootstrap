@@ -1,0 +1,81 @@
+p{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    color: #0000ff;
+}
+
+body{
+    background-color: rgb(143, 240, 143);
+}
+
+.menu{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size:14px;
+    font-weight: bold;
+    color: red;
+}
+
+.titulo{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    color: black;
+}
+
+.msn{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 10px;
+    color: rgb(149, 160, 160);
+}
+
+#formulario_contato{
+    background-color: #c0c0c0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    color: rgb(25, 54, 78);
+}
+
+.campo_nome{
+    position: relative;
+    /*left: 140px;*/
+    width: 260px;
+    color: red;
+    background-color: yellow;
+}
+
+.campo_email{
+    position: relative;
+    /*left: 140px;*/
+    width: 320px;
+    color: red;
+    background-color: yellow;
+}
+
+.campo_senha{
+    position: relative;
+    /*left: 140px;*/
+    width: 100px;
+    color: red;
+    background-color: yellow;
+}
+
+.container{
+    border: 3px solid brown;
+    width: 100%;
+}
+
+.div1{
+    background-color: yellow;
+}
+
+.div2{
+    background-color: green;
+}
+
+.div3{
+    background-color: blue;
+}
+
+.div4{
+    background-color: red;
+}
